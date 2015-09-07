@@ -1,0 +1,457 @@
+﻿[2015.09.07-11.33.20:135][  0]Log file open, 09/07/15 20:33:20
+[2015.09.07-11.33.20:135][  0]LogInit:Display: Running engine for game: PuzzleStudy
+[2015.09.07-11.33.20:135][  0]LogInit:Display: RandInit(-986674304) SRandInit(-986674304).
+[2015.09.07-11.33.20:135][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.07-11.33.20:135][  0]LogStats: Stats thread started at 0.087456
+[2015.09.07-11.33.20:135][  0]LogInit: Version: 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.07-11.33.20:135][  0]LogInit: API Version: 2672455
+[2015.09.07-11.33.20:135][  0]LogInit: Compiled (64-bit): Aug 28 2015 12:33:01
+[2015.09.07-11.33.20:135][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.07-11.33.20:135][  0]LogInit: Build Configuration: Development
+[2015.09.07-11.33.20:135][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.07-11.33.20:135][  0]LogInit: Command line: 
+[2015.09.07-11.33.20:135][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.07-11.33.20:135][  0]LogInit: Rocket: 1
+[2015.09.07-11.33.20:144][  0]LogInit: Using libcurl 7.41.0
+[2015.09.07-11.33.20:144][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.07-11.33.20:144][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.07-11.33.20:144][  0]LogInit:  - other features:
+[2015.09.07-11.33.20:144][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.07-11.33.20:144][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.07-11.33.20:144][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.07-11.33.20:144][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.07-11.33.20:144][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.07-11.33.20:144][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.07-11.33.20:144][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.07-11.33.20:144][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.07-11.33.20:144][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.07-11.33.20:144][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.07-11.33.20:152][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.07-11.33.20:158][  0]LogInit: Object subsystem initialized
+[2015.09.07-11.33.20:164][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-11.33.20:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.07-11.33.20:171][  0]LogInit: Computer: MMDAL
+[2015.09.07-11.33.20:171][  0]LogInit: User: m
+[2015.09.07-11.33.20:171][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.07-11.33.20:171][  0]LogInit: High frequency timer resolution =3.410069 MHz
+[2015.09.07-11.33.20:171][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.09.07-11.33.20:171][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.07-11.33.20:171][  0]LogMemory: Process Physical Memory: 54.05 MB used, 54.05 MB peak
+[2015.09.07-11.33.20:171][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2015.09.07-11.33.20:171][  0]LogMemory: Physical Memory: 5091.29 MB used, 8130.65 MB total
+[2015.09.07-11.33.20:171][  0]LogMemory: Virtual Memory: 352.60 MB used, 134217728.00 MB total
+[2015.09.07-11.33.20:218][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2015.09.07-11.33.20:270][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2015.09.07-11.33.20:270][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2015.09.07-11.33.20:270][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/4.9/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2015.09.07-11.33.20:489][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2015.09.07-11.33.20:489][  0]LogD3D11RHI: Adapter has 972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2015.09.07-11.33.20:490][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.07-11.33.20:490][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4065MB of shared system memory, 0 output[s]
+[2015.09.07-11.33.20:490][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.07-11.33.20:495][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.07-11.33.20:495][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2015.09.07-11.33.20:503][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.07-11.33.20:518][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/WORK/TEAMTEST/UETest/PuzzleStudy/Intermediate/Shaders/WorkingDirectory/12128/).
+[2015.09.07-11.33.20:519][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Intermediate/Shaders/tmp/98D7E38E4CB520D45CAF49B6FFC5B993/'.
+[2015.09.07-11.33.20:519][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.07-11.33.21:562][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.07-11.33.21:568][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.07-11.33.21:573][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.07-11.33.21:579][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.07-11.33.21:584][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.07-11.33.21:588][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.07-11.33.21:591][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.07-11.33.21:597][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.07-11.33.21:600][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.07-11.33.21:604][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.07-11.33.21:607][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.07-11.33.21:610][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.07-11.33.21:611][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.07-11.33.21:629][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.07-11.33.21:632][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.07-11.33.21:635][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.07-11.33.21:639][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.07-11.33.21:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.07-11.33.21:738][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/m/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/m/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/WORK/TEAMTEST/UETest/PuzzleStudy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/WORK/TEAMTEST/UETest/PuzzleStudy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.07-11.33.21:788][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.07-11.33.21:912][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.07-11.33.21:925][  0]LogDerivedDataCache: Using Local data cache path C:/Users/m/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.07-11.33.22:114][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.07-11.33.22:116][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.07-11.33.22:228][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.07-11.33.22:228][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.07-11.33.22:479][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.07-11.33.23:506][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.07-11.33.23:622][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.09.07-11.33.23:806][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.09.07-11.33.23:840][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.09.07-11.33.23:854][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.09.07-11.33.23:868][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.09.07-11.33.24:073][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.07-11.33.24:175][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.09.07-11.33.24:175][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.09.07-11.33.24:230][  0]LogEngine: Initializing Engine...
+[2015.09.07-11.33.24:235][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.07-11.33.24:236][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.07-11.33.24:350][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.07-11.33.24:356][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.07-11.33.24:372][  0]LogInit: FAudioDevice initialized.
+[2015.09.07-11.33.24:404][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/m/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.07-11.33.24:410][  0]LogInit: Texture streaming: Enabled
+[2015.09.07-11.33.24:416][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.07-11.33.24:416][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.0-2672455+++depot+UE4-Releases+4.9
+[2015.09.07-11.33.24:416][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cd34df724416769b488d5fb47818cebd|205d4a8a04634134b1767d414c4cc69b|c3447059-3f6d-484c-9db4-139df80b7d7d
+[2015.09.07-11.33.24:417][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.07-11.33.24:434][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2015.09.07-11.33.24:493][  0]LogInit: Transaction tracking system initialized
+[2015.09.07-11.33.24:536][  0]BlueprintLog: New page: 에디터 로드
+[2015.09.07-11.33.25:151][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2015.09.07-11.33.25:345][  0]LogConsoleResponse:Display: 
+[2015.09.07-11.33.25:449][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.07-11.33.25:522][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/' took 0.01s
+[2015.09.07-11.33.25:522][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2015.09.07-11.33.25:523][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.09.07-11.33.25:531][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.09.07-11.33.25:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.09.07-11.33.25:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.09.07-11.33.25:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.09.07-11.33.25:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.09.07-11.33.25:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.09.07-11.33.25:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.09.07-11.33.25:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.09.07-11.33.25:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.09.07-11.33.25:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.09.07-11.33.25:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.09.07-11.33.25:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.09.07-11.33.25:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.09.07-11.33.25:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.09.07-11.33.25:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.09.07-11.33.25:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.09.07-11.33.25:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.09.07-11.33.25:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.09.07-11.33.25:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Fire01.uasset"
+[2015.09.07-11.33.25:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.09.07-11.33.25:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.09.07-11.33.25:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.09.07-11.33.25:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Light01.uasset"
+[2015.09.07-11.33.25:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.09.07-11.33.25:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Light02.uasset"
+[2015.09.07-11.33.25:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.09.07-11.33.25:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.09.07-11.33.25:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.09.07-11.33.25:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.09.07-11.33.25:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.09.07-11.33.25:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.09.07-11.33.25:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.09.07-11.33.25:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.09.07-11.33.25:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.09.07-11.33.25:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Steam01.uasset"
+[2015.09.07-11.33.25:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.09.07-11.33.25:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.09.07-11.33.25:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.09.07-11.33.25:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.09.07-11.33.25:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.09.07-11.33.25:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.09.07-11.33.25:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.09.07-11.33.25:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.09.07-11.33.25:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.09.07-11.33.25:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.09.07-11.33.25:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.09.07-11.33.25:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.09.07-11.33.25:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.09.07-11.33.25:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.09.07-11.33.25:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.09.07-11.33.25:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.09.07-11.33.25:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.09.07-11.33.26:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.09.07-11.33.26:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.09.07-11.33.26:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.09.07-11.33.26:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Maps/StarterMap.umap"
+[2015.09.07-11.33.26:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.09.07-11.33.26:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.09.07-11.33.26:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.09.07-11.33.26:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.09.07-11.33.26:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.09.07-11.33.26:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.09.07-11.33.26:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.09.07-11.33.26:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.09.07-11.33.26:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.09.07-11.33.26:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.09.07-11.33.26:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.09.07-11.33.26:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.09.07-11.33.26:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.09.07-11.33.26:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.09.07-11.33.26:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.09.07-11.33.26:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.09.07-11.33.26:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.09.07-11.33.26:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.09.07-11.33.26:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.09.07-11.33.26:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.09.07-11.33.26:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.09.07-11.33.26:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.09.07-11.33.26:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.09.07-11.33.26:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.09.07-11.33.26:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.09.07-11.33.26:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.09.07-11.33.26:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.09.07-11.33.26:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.09.07-11.33.26:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.09.07-11.33.26:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.09.07-11.33.26:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.09.07-11.33.26:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.09.07-11.33.26:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.09.07-11.33.26:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.09.07-11.33.26:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.09.07-11.33.26:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.09.07-11.33.26:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.09.07-11.33.26:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.09.07-11.33.26:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.09.07-11.33.26:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.09.07-11.33.26:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.09.07-11.33.26:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.09.07-11.33.26:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.09.07-11.33.26:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.09.07-11.33.26:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.09.07-11.33.26:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.09.07-11.33.26:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.09.07-11.33.26:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.09.07-11.33.26:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.09.07-11.33.26:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.09.07-11.33.26:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.09.07-11.33.26:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.09.07-11.33.26:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.09.07-11.33.26:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.09.07-11.33.26:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.09.07-11.33.26:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.09.07-11.33.26:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.09.07-11.33.26:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.09.07-11.33.26:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.09.07-11.33.26:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.09.07-11.33.26:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.09.07-11.33.26:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.09.07-11.33.26:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.09.07-11.33.26:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.09.07-11.33.26:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Door.uasset"
+[2015.09.07-11.33.26:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.09.07-11.33.26:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.09.07-11.33.26:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.09.07-11.33.26:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.09.07-11.33.26:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.09.07-11.33.26:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.09.07-11.33.26:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.09.07-11.33.26:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.09.07-11.33.26:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.09.07-11.33.26:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.09.07-11.33.26:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.09.07-11.33.26:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.09.07-11.33.26:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.09.07-11.33.26:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.09.07-11.33.26:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.09.07-11.33.26:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.09.07-11.33.26:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.09.07-11.33.26:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.09.07-11.33.26:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.09.07-11.33.26:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.09.07-11.33.26:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.09.07-11.33.26:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.09.07-11.33.26:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.09.07-11.33.26:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.09.07-11.33.26:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.09.07-11.33.26:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.09.07-11.33.26:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.09.07-11.33.26:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.09.07-11.33.26:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.09.07-11.33.26:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.09.07-11.33.26:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.09.07-11.33.26:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.09.07-11.33.26:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.09.07-11.33.26:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.09.07-11.33.26:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.09.07-11.33.26:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.09.07-11.33.26:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.09.07-11.33.26:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.09.07-11.33.26:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.09.07-11.33.26:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.09.07-11.33.26:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.09.07-11.33.26:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.09.07-11.33.26:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.09.07-11.33.26:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.09.07-11.33.26:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.09.07-11.33.26:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.09.07-11.33.26:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.09.07-11.33.26:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.09.07-11.33.26:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.09.07-11.33.26:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.09.07-11.33.26:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.09.07-11.33.26:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.09.07-11.33.26:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.09.07-11.33.26:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.09.07-11.33.26:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.09.07-11.33.26:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.09.07-11.33.27:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.09.07-11.33.27:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.09.07-11.33.27:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.09.07-11.33.27:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.09.07-11.33.27:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.09.07-11.33.27:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.09.07-11.33.27:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.09.07-11.33.27:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.09.07-11.33.27:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.09.07-11.33.27:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.09.07-11.33.27:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.09.07-11.33.27:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.09.07-11.33.27:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.09.07-11.33.27:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.09.07-11.33.28:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.09.07-11.33.28:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.09.07-11.33.28:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.09.07-11.33.28:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.09.07-11.33.28:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.09.07-11.33.28:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.09.07-11.33.29:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.09.07-11.33.30:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.09.07-11.33.30:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.09.07-11.33.30:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.09.07-11.33.30:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.09.07-11.33.30:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.09.07-11.33.31:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.09.07-11.33.31:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.09.07-11.33.31:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.09.07-11.33.31:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.09.07-11.33.31:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.09.07-11.33.31:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.09.07-11.33.31:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.09.07-11.33.31:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.09.07-11.33.31:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.09.07-11.33.31:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.09.07-11.33.31:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.09.07-11.33.31:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.09.07-11.33.31:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.09.07-11.33.31:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.09.07-11.33.31:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.09.07-11.33.31:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.09.07-11.33.31:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.09.07-11.33.31:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.09.07-11.33.31:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.09.07-11.33.31:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.09.07-11.33.31:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.09.07-11.33.31:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.09.07-11.33.31:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.09.07-11.33.31:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.09.07-11.33.31:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.09.07-11.33.31:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.09.07-11.33.31:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.09.07-11.33.31:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.09.07-11.33.31:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.09.07-11.33.31:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.09.07-11.33.31:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.09.07-11.33.31:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.09.07-11.33.31:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.09.07-11.33.31:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.09.07-11.33.31:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.09.07-11.33.31:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.09.07-11.33.31:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.09.07-11.33.32:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.09.07-11.33.32:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.09.07-11.33.32:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.09.07-11.33.32:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.09.07-11.33.32:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.09.07-11.33.32:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.09.07-11.33.32:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.09.07-11.33.32:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.09.07-11.33.32:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.09.07-11.33.32:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.09.07-11.33.32:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.09.07-11.33.32:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.09.07-11.33.32:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.09.07-11.33.32:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.09.07-11.33.32:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.09.07-11.33.32:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.09.07-11.33.32:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.09.07-11.33.32:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.09.07-11.33.32:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.09.07-11.33.32:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.09.07-11.33.32:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.09.07-11.33.32:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.09.07-11.33.32:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.09.07-11.33.32:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.09.07-11.33.32:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.09.07-11.33.32:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.09.07-11.33.32:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.09.07-11.33.32:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.09.07-11.33.32:452][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.09.07-11.33.32:538][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2015.09.07-11.33.32:548][  0]LogSavePackage: Save=8.032389ms
+[2015.09.07-11.33.32:548][  0]LogSavePackage: Moving 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Saved/Floor_400x40009D46079496888C6B7B2868AB2CF2C8C.tmp' to 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.09.07-11.33.32:550][  0]LogSavePackage: Total save time: 10.813564ms
+[2015.09.07-11.33.32:550][  0]LogSavePackage:Warning: Finished SavePackage D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.09.07-11.33.32:550][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.09.07-11.33.32:551][  0]Cmd: MAP LOAD FILE="D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.07-11.33.32:551][  0]LightingResults: New page: 라이팅 빌드
+[2015.09.07-11.33.32:555][  0]MapCheck: New page: 맵 체크
+[2015.09.07-11.33.32:555][  0]LightingResults: New page: 라이팅 빌드
+[2015.09.07-11.33.32:565][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006246CCA160
+[2015.09.07-11.33.32:753][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고  Set Text (String)  : 폐기되었습니다. Use the SetText function taking an FText instead.
+[2015.09.07-11.33.32:755][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.17] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 1 회 있습니다. [소요시간 7 ms]
+[2015.09.07-11.33.32:755][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.17] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 0 ms]
+[2015.09.07-11.33.32:755][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.17] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2015.09.07-11.33.32:769][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고  Set Text (String)  : 폐기되었습니다. Use the SetText function taking an FText instead.
+[2015.09.07-11.33.32:771][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.18] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 1 회 있습니다. [소요시간 8 ms]
+[2015.09.07-11.33.32:771][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.18] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 2 회 있습니다. [소요시간 0 ms]
+[2015.09.07-11.33.32:771][  0]LogBlueprint:Warning: [compiler PuzzleBlockGrid] 경고 [0013.18] PuzzleBlockGrid 컴파일에 성공했으나, 경고가 3 회 있습니다. [소요시간 0 ms]
+[2015.09.07-11.33.33:239][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.09.07-11.33.33:248][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.07-11.33.33:249][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.07-11.33.33:336][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 87.462ms.
+[2015.09.07-11.33.33:336][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.786
+[2015.09.07-11.33.33:449][  0]LogCollectionManager: Loaded 0 collections in 0.002355 seconds
+[2015.09.07-11.33.33:974][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Saved/Collections/' took 0.01s
+[2015.09.07-11.33.33:974][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/Developers/m/Collections/' took 0.01s
+[2015.09.07-11.33.33:974][  0]LogFileCache: Scanning file cache for directory 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/Collections/' took 0.01s
+[2015.09.07-11.33.33:974][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1867 classes and 333 folders.
+[2015.09.07-11.33.33:981][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.09.07-11.33.33:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.07-11.33.34:052][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.07-11.33.34:078][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.07-11.33.34:107][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.07-11.33.34:112][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2015.09.07-11.33.34:135][  0]LogLoad: Full Startup: 14.55 seconds (BP compile: 0.08 seconds)
+[2015.09.07-11.33.34:357][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.07-11.33.34:483][  0]LogRenderer: Reallocating scene render targets to support 1208x652 (Frame:3).
+[2015.09.07-11.33.37:319][ 75]LogAssetRegistry: Asset discovery search completed in 13.7081 seconds
+[2015.09.07-11.33.37:319][ 75]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.07-11.33.37:319][ 75]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.09.07-11.34.05:341][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PuzzleBP/Maps/PuzzleExampleMap" FILE="D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.07-11.34.05:469][103]LogSavePackage: Save=82.888939ms
+[2015.09.07-11.34.05:469][103]LogSavePackage: Moving 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Saved/PuzzleExampleMapE7409A9B48DCBE56BA84899C3895907C.tmp' to 'D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2015.09.07-11.34.05:471][103]LogSavePackage: Total save time: 94.865236ms
+[2015.09.07-11.34.05:472][103]LogSavePackage:Warning: Finished SavePackage D:/WORK/TEAMTEST/UETest/PuzzleStudy/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2015.09.07-11.34.06:800][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.07-11.34.06:800][151]PIE: New page: PIE 세션: PuzzleExampleMap (2015. 9. 8. 오전 5:34:06)
+[2015.09.07-11.34.06:800][151]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2015.09.07-11.34.06:830][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029189s)
+[2015.09.07-11.34.06:831][151]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2015.09.07-11.34.06:831][151]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2015.09.07-11.34.06:831][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.030563s)
+[2015.09.07-11.34.06:856][151]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.07-11.34.06:876][151]LogInit: FAudioDevice initialized.
+[2015.09.07-11.34.06:942][151]LogWorld: Game class is 'PuzzleGameMode_C'
+[2015.09.07-11.34.06:946][151]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2015.09.07-20.34.06
+[2015.09.07-11.34.06:946][151]LogActor:Warning: GameSession /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.07-11.34.06:946][151]LogActor:Warning: GameNetworkManager /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.07-11.34.06:947][151]LogWorld: Bringing up level for play took: 0.002996
+[2015.09.07-11.34.06:951][151]PIE: 정보 /Ga
